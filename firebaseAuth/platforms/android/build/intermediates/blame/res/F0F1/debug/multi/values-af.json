@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\values-af\\values-af.xml",
+        "outputFile": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/res/merged/F0F1/debug/values-af/values-af.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 204
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 312
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 435
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 535
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 641
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 726
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 829
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 947
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 1023
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1100
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1181
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1288
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1391
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1488
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1596
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1698
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1800
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1917
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 2015
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 2174
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -392,7 +392,7 @@
                     "endOffset": 2294
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -412,7 +412,7 @@
                     "endOffset": 2419
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -431,7 +431,7 @@
                     "endOffset": 2513
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -450,7 +450,7 @@
                     "endOffset": 2580
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -469,7 +469,7 @@
                     "endOffset": 2651
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -488,7 +488,7 @@
                     "endOffset": 2711
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -507,7 +507,7 @@
                     "endOffset": 2787
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -526,7 +526,7 @@
                     "endOffset": 2861
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -545,7 +545,7 @@
                     "endOffset": 2953
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -564,7 +564,7 @@
                     "endOffset": 3027
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -583,7 +583,7 @@
                     "endOffset": 3101
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -602,7 +602,7 @@
                     "endOffset": 3184
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -621,7 +621,7 @@
                     "endOffset": 3283
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -640,7 +640,7 @@
                     "endOffset": 3347
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -659,7 +659,7 @@
                     "endOffset": 3411
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -678,7 +678,7 @@
                     "endOffset": 3543
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -697,7 +697,7 @@
                     "endOffset": 3652
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-af\\values.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -716,7 +716,7 @@
                     "endOffset": 3840
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-af\\values.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -735,7 +735,7 @@
                     "endOffset": 3968
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-af\\values.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -754,7 +754,7 @@
                     "endOffset": 4080
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-af\\values.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -773,7 +773,7 @@
                     "endOffset": 4289
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-af\\values.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -792,7 +792,7 @@
                     "endOffset": 4413
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-af\\values.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -811,7 +811,7 @@
                     "endOffset": 4544
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-af\\values.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -830,7 +830,7 @@
                     "endOffset": 4746
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.8.0\\res\\values-af\\values.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -849,7 +849,7 @@
                     "endOffset": 4971
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-af\\values.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -868,7 +868,7 @@
                     "endOffset": 5081
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-af\\values.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
@@ -887,7 +887,7 @@
                     "endOffset": 5269
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-af\\values.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
@@ -906,7 +906,7 @@
                     "endOffset": 5398
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-af\\values.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
@@ -925,7 +925,7 @@
                     "endOffset": 5596
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-af\\values.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
@@ -944,7 +944,7 @@
                     "endOffset": 5780
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-af\\values.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
@@ -963,7 +963,7 @@
                     "endOffset": 5876
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-af\\values.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
@@ -982,7 +982,7 @@
                     "endOffset": 5969
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-af\\values.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
@@ -1001,7 +1001,7 @@
                     "endOffset": 6077
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-af\\values.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
@@ -1020,7 +1020,7 @@
                     "endOffset": 6138
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1039,7 +1039,7 @@
                     "endOffset": 6218
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1058,7 +1058,7 @@
                     "endOffset": 6319
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-af\\values-af.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

@@ -10,7 +10,7 @@
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
       },
-      "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth"
+      "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth"
     ]
   ],
   "_from": "nativescript-theme-core@>=1.0.0 <2.0.0",
@@ -44,7 +44,7 @@
   "_shasum": "712e80b702316abaa4e7d738825573f9e6bae658",
   "_shrinkwrap": null,
   "_spec": "nativescript-theme-core@^1.0.0",
-  "_where": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth",
+  "_where": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth",
   "author": {
     "name": "Telerik",
     "email": "support@telerik.com"

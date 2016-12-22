@@ -10,7 +10,7 @@
         "spec": ">=3.8.4 <4.0.0",
         "type": "range"
       },
-      "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth"
+      "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth"
     ]
   ],
   "_from": "nativescript-plugin-firebase@>=3.8.4 <4.0.0",
@@ -44,7 +44,7 @@
   "_shasum": "a30dd935eddfb17be0101c64e12314334377cd99",
   "_shrinkwrap": null,
   "_spec": "nativescript-plugin-firebase@^3.8.4",
-  "_where": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth",
+  "_where": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth",
   "author": {
     "name": "Telerik / Eddy Verbruggen",
     "email": "eddyverbruggen@gmail.com"

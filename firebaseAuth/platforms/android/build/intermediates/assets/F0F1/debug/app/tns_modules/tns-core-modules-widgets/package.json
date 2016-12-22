@@ -10,7 +10,7 @@
         "spec": "2.4.0",
         "type": "version"
       },
-      "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\node_modules\\tns-core-modules"
+      "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/node_modules/tns-core-modules"
     ]
   ],
   "_from": "tns-core-modules-widgets@2.4.0",
@@ -44,7 +44,7 @@
   "_shasum": "95de9f147268e806d6cf6bc8761ca235dd194f73",
   "_shrinkwrap": null,
   "_spec": "tns-core-modules-widgets@2.4.0",
-  "_where": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\node_modules\\tns-core-modules",
+  "_where": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/node_modules/tns-core-modules",
   "author": {
     "name": "NativeScript team"
   },

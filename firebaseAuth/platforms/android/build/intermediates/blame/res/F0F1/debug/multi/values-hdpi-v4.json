@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "outputFile": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/res/merged/F0F1/debug/values-hdpi-v4/values-hdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 327
                 },
                 "from": {
-                    "file": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "file": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

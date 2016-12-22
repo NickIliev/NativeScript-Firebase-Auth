@@ -13,9 +13,9 @@ public final class R {
 		public static final int imageAspectRatioAdjust = 0x7f0100e1;
 	}
 	public static final class id {
-		public static final int adjust_height = 0x7f0b0039;
-		public static final int adjust_width = 0x7f0b003a;
-		public static final int none = 0x7f0b0013;
+		public static final int adjust_height = 0x7f0b0037;
+		public static final int adjust_width = 0x7f0b0038;
+		public static final int none = 0x7f0b0011;
 	}
 	public static final class integer {
 		public static final int google_play_services_version = 0x7f090006;
