@@ -188,3 +188,4 @@ android.animation.Animator.AnimatorListener*ftns_modules_ui_transition_transitio
 view.View*frnal_ts_helpers_l55_c38__WebView*_onLoadFinished,_onLoadStarted,loadStartedEvent,loadFinishedEvent,navigationTypes,urlProperty,srcProperty***
 android.webkit.WebViewClient*frnal_ts_helpers_l55_c38__WebViewClientClassInner*shouldOverrideUrlLoading,onPageStarted,onPageFinished,onReceivedError***
 common.WebView*frnal_ts_helpers_l55_c38__WebView*_createUI,_onDetached,_loadUrl,_loadFileOrResource,_loadHttp,_loadData,stopLoading,goBack,goForward,reload***
+observable_1.Observable*frnal_ts_helpers_l55_c38__ViewModel*onFacebookLogin,onGoogleLogin,onLogout***

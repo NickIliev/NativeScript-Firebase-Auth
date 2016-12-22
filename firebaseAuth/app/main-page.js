@@ -1,6 +1,6 @@
 "use strict";
 var main_view_model_1 = require("./main-view-model");
-var vm = new main_view_model_1.HelloWorldModel();
+var vm = new main_view_model_1.ViewModel();
 // Event handler for Page "navigatingTo" event attached in main-page.xml
 function navigatingTo(args) {
     /*

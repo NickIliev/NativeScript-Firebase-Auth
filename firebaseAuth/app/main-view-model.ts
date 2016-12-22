@@ -1,38 +1,37 @@
-import {Observable} from 'data/observable';
+import { Observable } from 'data/observable';
 import * as firebase from "nativescript-plugin-firebase";
 import * as frame from "ui/frame";
 
-export class HelloWorldModel extends Observable {
-
-    private _username: string;
+export class ViewModel extends Observable {
 
     constructor() {
         super();
-    }
-
-    get username(): string {
-        return this._username;
-    }
-    
-    set username(value: string) {
-        if (this._username !== value) {
-            this._username = value;
-            this.notifyPropertyChange('username', value)
-        }
     }
 
     public onFacebookLogin() {
         firebase.login({
             type: firebase.LoginType.FACEBOOK,
             scope: ['public_profile', 'email'] // optional: defaults to ['public_profile', 'email']
-        }).then(
-            function (result) {
-                console.log(JSON.stringify(result));
-                frame.topmost().navigate("welcome-page");
-            },
-            function (errorMessage) {
-                console.log(errorMessage);
-            }
-        );
+        }).then(res => {
+            // console.log(JSON.stringify(result));
+            frame.topmost().navigate("welcome-page");
+        }).catch(err => {
+            console.log(err);
+        })
+    }
+
+    public onGoogleLogin() {
+        firebase.login({
+            type: firebase.LoginType.GOOGLE,
+        }).then(res => {
+            console.log(JSON.stringify(res));
+            frame.topmost().navigate("welcome-page");
+        }).catch(err => {
+            console.log(err);
+        })
+    }
+
+    public onLogout() {
+        firebase.logout();
     }
 }

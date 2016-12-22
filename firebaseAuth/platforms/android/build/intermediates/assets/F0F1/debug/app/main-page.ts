@@ -5,9 +5,9 @@ logic, and to set up your page’s data binding.
 */
 import { EventData } from 'data/observable';
 import { Page } from 'ui/page';
-import { HelloWorldModel } from './main-view-model';
+import { ViewModel } from './main-view-model';
 
-let vm = new HelloWorldModel();
+let vm = new ViewModel();
 
 // Event handler for Page "navigatingTo" event attached in main-page.xml
 export function navigatingTo(args: EventData) {
