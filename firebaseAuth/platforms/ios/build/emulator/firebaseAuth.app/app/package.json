@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/NativeScript/template-hello-world-ts",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/NativeScript/template-hello-world-ts",
+        "spec": "git+https://github.com/NativeScript/template-hello-world-ts.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:NativeScript/template-hello-world-ts.git",
+          "sshUrl": "git+ssh://git@github.com/NativeScript/template-hello-world-ts.git",
+          "httpsUrl": "git+https://github.com/NativeScript/template-hello-world-ts.git",
+          "gitUrl": "git://github.com/NativeScript/template-hello-world-ts.git",
+          "shortcut": "github:NativeScript/template-hello-world-ts",
+          "directUrl": "https://raw.githubusercontent.com/NativeScript/template-hello-world-ts/master/package.json"
+        }
+      },
+      "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth"
+    ]
+  ],
+  "_from": "git+https://github.com/NativeScript/template-hello-world-ts.git",
+  "_id": "tns-template-hello-world-ts@2.5.0",
+  "_inCache": true,
+  "_location": "/tns-template-hello-world-ts",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/NativeScript/template-hello-world-ts",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/NativeScript/template-hello-world-ts",
+    "spec": "git+https://github.com/NativeScript/template-hello-world-ts.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:NativeScript/template-hello-world-ts.git",
+      "sshUrl": "git+ssh://git@github.com/NativeScript/template-hello-world-ts.git",
+      "httpsUrl": "git+https://github.com/NativeScript/template-hello-world-ts.git",
+      "gitUrl": "git://github.com/NativeScript/template-hello-world-ts.git",
+      "shortcut": "github:NativeScript/template-hello-world-ts",
+      "directUrl": "https://raw.githubusercontent.com/NativeScript/template-hello-world-ts/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/NativeScript/template-hello-world-ts.git#fbb73b94ed0a0b74fbf3b7313b9b33cbd059cbef",
+  "_shasum": "a6a6d903ce2ffa4db424ba1c140f2e2e6b20d1e1",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/NativeScript/template-hello-world-ts",
+  "_where": "D:\\git-NickIliev\\NativeScript-Firebase-FacebookAuth\\firebaseAuth",
+  "android": {
+    "v8Flags": "--expose_gc"
+  },
+  "author": {
+    "name": "Telerik",
+    "email": "support@telerik.com"
+  },
+  "bugs": {
+    "url": "https://github.com/NativeScript/template-hello-world-ts/issues"
+  },
+  "dependencies": {
+    "nativescript-theme-core": "^1.0.0"
+  },
+  "description": "Nativescript hello-world-ts project template",
+  "devDependencies": {
+    "nativescript-dev-android-snapshot": "^0.*.*",
+    "nativescript-dev-typescript": "^0.3.2",
+    "typescript": "^2.0.10"
+  },
+  "gitHead": "fbb73b94ed0a0b74fbf3b7313b9b33cbd059cbef",
+  "homepage": "https://github.com/NativeScript/template-hello-world-ts",
+  "keywords": [
+    "telerik",
+    "mobile",
+    "nativescript",
+    "{N}",
+    "tns",
+    "appbuilder",
+    "template"
+  ],
+  "license": "Apache-2.0",
+  "main": "app.js",
+  "name": "tns-template-hello-world-ts",
+  "optionalDependencies": {},
+  "readme": "# NativeScript TypeScript Template\r\n\r\nThis template creates a NativeScript app with the NativeScript hello world example,\r\nhowever, in this template the example is built with TypeScript.\r\n\r\nYou can create a new app that uses this template with either the `--template` option.\r\n\r\n```\r\ntns create my-app-name --template tns-template-hello-world-ts\r\n```\r\n\r\nOr the `--tsc` shorthand.\r\n\r\n```\r\ntns create my-app-name --tsc\r\n```\r\n\r\n> Note: Both commands will create a new NativeScript app that uses the latest version of this template published to [npm] (https://www.npmjs.com/package/tns-template-hello-world-ts).\r\n\r\nIf you want to create a new app that uses the source of the template from the `master` branch, you can execute the following:\r\n\r\n```\r\ntns create my-app-name --template https://github.com/NativeScript/template-hello-world-ts.git#master\r\n```\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NativeScript/template-hello-world-ts.git"
+  },
+  "version": "2.5.0"
+}

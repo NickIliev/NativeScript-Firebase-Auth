@@ -99,4 +99,5 @@ Make sure ANDROID_HOME is set to the Android SDK directory that is being updated
 
 e.g.:
 `12-22 14:47:09.579: W/fb4a.BlueServiceQueue(10900): X.2Oo: [code] 404 [message]: Key hash hBkR5079MNgyiKSzf1x2/Tv0HjI= does not match any stored key hashes. (404) [extra]: null`
+
 Key hash:  `hBkR5079MNgyiKSzf1x2/Tv0HjI=`
