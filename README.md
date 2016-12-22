@@ -1,8 +1,15 @@
-# Facebook authentication via Firebase in NativeScript
+# Firebase authentication in NativeScript
 
-Steps to implement facebook auth via firebase in NativeScrip app.
+This POC application demonstrates how to use Firebase authentication methods.
+Everything is setup in the master branch to work with debug build.
 
-## Facebook console part
+To enable Firebase authentication in your own project follow the steps below.
+
+## Facebook authentication via Firebase in NativeScript
+
+### Facebook console part
+Steps to implement facebook auth via Firebase in NativeScrip app.
+
 1. log in https://developers.facebook.com/apps/
 2. go to Settings >> Basic and add Android platform
 3. check **AppId** and **AppSecret** (will be needed in firebase console later) 
@@ -13,14 +20,14 @@ Steps to implement facebook auth via firebase in NativeScrip app.
 5. for **Class Name** add `com.tns.NativeScriptActivity`
 6. the final step is to add your **Key Hashes** (if you do not know them now, do not worry - we will add them at our final step!)
 
-## Firebase console part
+### Firebase console part
 1. log in https://console.firebase.google.com
 2. go to Authentication
 3. enable Facebook Authentication
 4. add AppID and AppSecret from the Facebook console
 5. save all
 
-## Project Steps
+### Project Steps
 1. if you have previously included Firebase plugin delete the platforms folder (do not save your google-services.json as you will need newly generated one)
 2. if you do not have the plugin install it with `tns plugin add nativescript-plugin-firebase`
 3. open your `firebase.nativescript.json` and make sure that `"facebook_auth": true`
@@ -100,9 +107,10 @@ e.g.:
 Key hash:  `hBkR5079MNgyiKSzf1x2/Tv0HjI=`
 
 
-# Google authentication via Firebase in NativeScript
+## Google authentication via Firebase in NativeScript
+Steps to implement Google auth via Firebase in NativeScrip app.
 
-## Firebase Console Steps
+### Firebase Console Steps
 
 1. log in https://console.firebase.google.com
 2. go to Authentication
@@ -114,9 +122,11 @@ Key hash:  `hBkR5079MNgyiKSzf1x2/Tv0HjI=`
 
     > Note: You can generate debug and release certificate fingerprints. To create release certificate you will need generate keystore file and its name
 
-5. Go through steps 1-6 from *Facebook* >> *Project Steps* and make sure everything is done (for step 3 look for `google_auth: true`)
-6. If you haven't initialized firebase yet, then go through step 9 from *Facebook* >> *Project Steps*
-7. 
+### Project Steps
+
+1. Go through steps 1-6 from *Facebook* >> *Project Steps* and make sure everything is done (for step 3 look for `google_auth: true`)
+2. If you haven't initialized firebase yet, then go through step 9 from *Facebook* >> *Project Steps*
+3. 
     ```
     public onGoogleLogin() {
         firebase.login({
