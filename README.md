@@ -1,5 +1,4 @@
-# NativeScript-Firebase-FacebookAuth
-
+# Facebook authentication via Firebase in NativeScript
 
 Steps to implement facebook auth via firebase in NativeScrip app.
 
@@ -7,8 +6,8 @@ Steps to implement facebook auth via firebase in NativeScrip app.
 1. log in https://developers.facebook.com/apps/
 2. go to Settings >> Basic and add Android platform
 3. check **AppId** and **AppSecret** (will be needed in firebase console later) 
-    AppId:      242365049527563
-    AppSecret:  babeadab2f846955387c2836e2b37530
+    example AppId:      123456789123456
+    example AppSecret:  xxyyzzccvvbb6955387c2836e2b37530
 
 4. for **Google Play Package Name** add applicationId from your package.json (e.g. in this case `org.nativescript.firebaseAuth`)
 5. for **Class Name** add `com.tns.NativeScriptActivity`
@@ -35,7 +34,7 @@ Steps to implement facebook auth via firebase in NativeScrip app.
     ```
         <?xml version='1.0' encoding='utf-8'?>
         <resources>
-            <string name="facebook_app_id">242365049527563</string>
+            <string name="facebook_app_id">123456789123456</string>
         </resources>
     ```
     The value for `facebook_app_id` is your Facebook AppId
@@ -65,8 +64,6 @@ Steps to implement facebook auth via firebase in NativeScrip app.
     }).then(
         function (result) {
             console.log(JSON.stringify(result));
-
-            frame.topmost().navigate("./views/drawer-page");
         },
         function (errorMessage) {
             console.log(errorMessage);
@@ -78,7 +75,7 @@ Steps to implement facebook auth via firebase in NativeScrip app.
     open `adb logcat` and look for something like Key hash <......> does not match any stored key hashes.
     Copy the hash key and paste it to the faceboook developer console. Voila!
 
-    IN this case : rH+McZMWAbPrSFDCQjRsdyEYMoI=
+    example key hash : rH+McZXCVPZXCVCZXCVdyEYMoI=
 
 
 ### Possible issue:
@@ -101,3 +98,33 @@ e.g.:
 `12-22 14:47:09.579: W/fb4a.BlueServiceQueue(10900): X.2Oo: [code] 404 [message]: Key hash hBkR5079MNgyiKSzf1x2/Tv0HjI= does not match any stored key hashes. (404) [extra]: null`
 
 Key hash:  `hBkR5079MNgyiKSzf1x2/Tv0HjI=`
+
+
+# Google authentication via Firebase in NativeScript
+
+## Firebase Console Steps
+
+1. log in https://console.firebase.google.com
+2. go to Authentication
+3. enable Google Authentication + enable Web SDK configuration in the same tab
+4. Go to **Overview** >> **Project Settings** and add SHA1 certificate
+    - to generate SHA1 certificate go to https://developers.google.com/android/guides/client-auth
+        
+        example SHA1 : 84:19:xx:yy:zz:vv:bb:D8:32:88:A4:B3:7F:5C:76:FD:3B:F4:1E:32
+
+    > Note: You can generate debug and release certificate fingerprints. To create release certificate you will need generate keystore file and its name
+
+5. Go through steps 1-6 from *Facebook* >> *Project Steps* and make sure everything is done (for step 3 look for `google_auth: true`)
+6. If you haven't initialized firebase yet, then go through step 9 from *Facebook* >> *Project Steps*
+7. 
+    ```
+    public onGoogleLogin() {
+        firebase.login({
+            type: firebase.LoginType.GOOGLE,
+        }).then(res => {
+            console.log(JSON.stringify(res));
+        }).catch(err => {
+            console.log(err);
+        })
+    }
+    ```
