@@ -35,7 +35,7 @@ Steps to implement facebook auth via firebase in NativeScrip app.
     ```
         <?xml version='1.0' encoding='utf-8'?>
         <resources>
-            <string name="facebook_app_id">1112223334445556</string>
+            <string name="facebook_app_id">242365049527563</string>
         </resources>
     ```
     The value for `facebook_app_id` is your Facebook AppId
@@ -77,3 +77,26 @@ Steps to implement facebook auth via firebase in NativeScrip app.
 11. Remember those **Key Hashes** we need to set in Facebook console!? Well after your first attempt to login in,
     open `adb logcat` and look for something like Key hash <......> does not match any stored key hashes.
     Copy the hash key and paste it to the faceboook developer console. Voila!
+
+    IN this case : rH+McZMWAbPrSFDCQjRsdyEYMoI=
+
+
+### Possible issue:
+
+Could not find com.google...
+
+And there's this one: 
+    ```
+        Could not find com.google.firebase:firebase-auth:9.4.0. 
+        ...
+        Command /Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/gradlew failed with exit code 1
+    ```
+That means making sure you have the latest Google Repository bits installed. 
+Just run android from a command prompt and install any pending updates.
+
+Also, an error like "Could not find com.google.firebase:firebase-core:9.0.0" can be caused by having more than one version of the Android SDK installed. 
+Make sure ANDROID_HOME is set to the Android SDK directory that is being updated otherwise it will seem as though your updates have no effect.
+
+e.g.:
+`12-22 14:47:09.579: W/fb4a.BlueServiceQueue(10900): X.2Oo: [code] 404 [message]: Key hash hBkR5079MNgyiKSzf1x2/Tv0HjI= does not match any stored key hashes. (404) [extra]: null`
+Key hash:  `hBkR5079MNgyiKSzf1x2/Tv0HjI=`
