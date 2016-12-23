@@ -5,8 +5,8 @@ purpose of the file is to pass control to the app’s first module.
 */
 import "./bundle-config";
 import * as app from 'application';
-import * as firebase from "nativescript-plugin-firebase";
 import * as appSettings from "application-settings";
+import * as firebase from "nativescript-plugin-firebase";
 
 firebase.init({
     onAuthStateChanged: function (data) { // optional but useful to immediately re-logon the user when he re-visits your app
@@ -15,11 +15,6 @@ firebase.init({
 
         if (data.loggedIn) {
             console.log("user's email address: " + (data.user.email ? data.user.email : "N/A"));
-            console.log(JSON.stringify(data));
-            appSettings.setString("username", data.user.email);
-            appSettings.setString("name", data.user.name);
-            appSettings.setString("uid", data.user.uid);
-            appSettings.setString("profileImageURL", data.user.profileImageURL);     
         }
     }
 }).then(instance => {
@@ -28,7 +23,7 @@ firebase.init({
     console.log("Firebase init error: " + err);
 });
 
-app.start({ moduleName: 'main-page' });
+app.start({ moduleName: "main-page" });
 /*
 Do not place any code after the application has been started as it will not
 be executed on iOS.

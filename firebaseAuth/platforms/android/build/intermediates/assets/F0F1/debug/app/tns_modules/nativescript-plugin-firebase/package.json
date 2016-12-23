@@ -1,71 +1,25 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "nativescript-plugin-firebase@^3.8.4",
-        "scope": null,
-        "escapedName": "nativescript-plugin-firebase",
-        "name": "nativescript-plugin-firebase",
-        "rawSpec": "^3.8.4",
-        "spec": ">=3.8.4 <4.0.0",
-        "type": "range"
-      },
-      "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth"
-    ]
-  ],
-  "_from": "nativescript-plugin-firebase@>=3.8.4 <4.0.0",
-  "_id": "nativescript-plugin-firebase@3.8.4",
-  "_inCache": true,
-  "_location": "/nativescript-plugin-firebase",
-  "_nodeVersion": "4.2.2",
-  "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/nativescript-plugin-firebase-3.8.4.tgz_1479934104812_0.8346181670203805"
-  },
-  "_npmUser": {
-    "name": "eddyverbruggen",
-    "email": "eddyverbruggen@gmail.com"
-  },
-  "_npmVersion": "2.14.7",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "nativescript-plugin-firebase@^3.8.4",
-    "scope": null,
-    "escapedName": "nativescript-plugin-firebase",
-    "name": "nativescript-plugin-firebase",
-    "rawSpec": "^3.8.4",
-    "spec": ">=3.8.4 <4.0.0",
-    "type": "range"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/nativescript-plugin-firebase/-/nativescript-plugin-firebase-3.8.4.tgz",
-  "_shasum": "a30dd935eddfb17be0101c64e12314334377cd99",
-  "_shrinkwrap": null,
-  "_spec": "nativescript-plugin-firebase@^3.8.4",
-  "_where": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth",
-  "author": {
-    "name": "Telerik / Eddy Verbruggen",
-    "email": "eddyverbruggen@gmail.com"
-  },
-  "bugs": {
-    "url": "https://github.com/eddyverbruggen/nativescript-plugin-firebase/issues"
-  },
-  "dependencies": {},
+  "name": "nativescript-plugin-firebase",
+  "version": "3.8.5",
   "description": "Fire. Base. Firebase!",
-  "devDependencies": {
-    "prompt-lite": "^0.1.1",
-    "webpack": "~2.1.0-beta.25",
-    "xcode": "0.8.0"
+  "main": "firebase",
+  "typings": "index.d.ts",
+  "nativescript": {
+    "platforms": {
+      "android": "2.3.0",
+      "ios": "2.3.0"
+    }
   },
-  "directories": {},
-  "dist": {
-    "shasum": "a30dd935eddfb17be0101c64e12314334377cd99",
-    "tarball": "https://registry.npmjs.org/nativescript-plugin-firebase/-/nativescript-plugin-firebase-3.8.4.tgz"
+  "scripts": {
+    "bundle-installer": "npm install --ignore-scripts && webpack --config scripts/webpack.config.js scripts/installer.js scripts/postinstall.js && webpack --config scripts/webpack.config.js scripts/install_ios_entitlements.js scripts/install_ios_entitlements_packed.js",
+    "prepublish": "npm run bundle-installer",
+    "postinstall": "node scripts/postinstall.js",
+    "config": "node scripts/postinstall.js config"
   },
-  "gitHead": "cb4de9c880c2d174fbf0750834c5a051d8ad720d",
-  "homepage": "https://github.com/eddyverbruggen/nativescript-plugin-firebase",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddyverbruggen/nativescript-plugin-firebase.git"
+  },
   "keywords": [
     "NativeScript",
     "Firebase",
@@ -81,36 +35,47 @@
     "Facebook",
     "Google"
   ],
+  "author": {
+    "name": "Telerik / Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
   "license": {
     "type": "MIT",
     "url": "https://github.com/eddyverbruggen/nativescript-plugin-firebase/blob/master/LICENSE"
   },
-  "main": "firebase.js",
+  "bugs": {
+    "url": "https://github.com/eddyverbruggen/nativescript-plugin-firebase/issues"
+  },
+  "homepage": "https://github.com/eddyverbruggen/nativescript-plugin-firebase",
+  "devDependencies": {
+    "prompt-lite": "^0.1.1",
+    "xcode": "0.8.0",
+    "webpack": "~2.1.0-beta.25"
+  },
+  "gitHead": "1d86a158983d0ebd0d082d94306f0889a877913f",
+  "_id": "nativescript-plugin-firebase@3.8.5",
+  "_shasum": "41036b9750cd01b5ceb473c31601bb40f7c7ae0e",
+  "_from": "nativescript-plugin-firebase@>=3.8.4 <4.0.0",
+  "_npmVersion": "2.14.7",
+  "_nodeVersion": "4.2.2",
+  "_npmUser": {
+    "name": "eddyverbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
+  "dist": {
+    "shasum": "41036b9750cd01b5ceb473c31601bb40f7c7ae0e",
+    "tarball": "https://registry.npmjs.org/nativescript-plugin-firebase/-/nativescript-plugin-firebase-3.8.5.tgz"
+  },
   "maintainers": [
     {
       "name": "eddyverbruggen",
       "email": "eddyverbruggen@gmail.com"
     }
   ],
-  "name": "nativescript-plugin-firebase",
-  "nativescript": {
-    "platforms": {
-      "android": "2.3.0",
-      "ios": "2.3.0"
-    }
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-plugin-firebase-3.8.5.tgz_1482498787390_0.6271954197436571"
   },
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eddyverbruggen/nativescript-plugin-firebase.git"
-  },
-  "scripts": {
-    "bundle-installer": "npm install --ignore-scripts && webpack --config scripts/webpack.config.js scripts/installer.js scripts/postinstall.js && webpack --config scripts/webpack.config.js scripts/install_ios_entitlements.js scripts/install_ios_entitlements_packed.js",
-    "config": "node scripts/postinstall.js config",
-    "postinstall": "node scripts/postinstall.js",
-    "prepublish": "npm run bundle-installer"
-  },
-  "typings": "index.d.ts",
-  "version": "3.8.4"
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nativescript-plugin-firebase/-/nativescript-plugin-firebase-3.8.5.tgz"
 }

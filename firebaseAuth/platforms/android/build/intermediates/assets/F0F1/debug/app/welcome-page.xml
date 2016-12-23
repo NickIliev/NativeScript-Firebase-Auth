@@ -1,9 +1,9 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo">
     <StackLayout>
         <Label text="Login succsessfull! WELCOME!" textWrap="true" />
-        <Label text="{{ username }}" textWrap="true" />
-        <Label text="{{ name }}" textWrap="true" />
-        <Label text="{{ uid }}" textWrap="true" />
-        <Image src="{{ profileImageURL }}" stretch="none" />
+        <Label text="{{ user.email }}" textWrap="true" />
+        <Label text="{{ user.name }}" textWrap="true" />
+        <Label text="{{ user.uid }}" textWrap="true" />
+        <Image src="{{ user.profileImageURL }}" stretch="none" />
     </StackLayout>
 </Page>

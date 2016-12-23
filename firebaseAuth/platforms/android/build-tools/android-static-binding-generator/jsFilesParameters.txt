@@ -1,2 +1,1 @@
 /Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/src/main/assets/app/main-view-model.js
-/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/src/main/assets/app/main-page.js

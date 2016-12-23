@@ -2,6 +2,9 @@
 
 This POC application demonstrates how to use Firebase authentication methods.
 Everything is setup in the master branch to work with debug build.
+Currently implemented authentication methods:
+ - Facebook
+ - Google
 
 To enable Firebase authentication in your own project follow the steps below.
 

@@ -1,26 +1,40 @@
-<!--
-The markup in NativeScript apps contains a series of user interface components, each
-of which NativeScript renders with a platform-specific iOS or Android native control.
-You can find a full list of user interface components you can use in your app at
-https://docs.nativescript.org/ui/components.
--->
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
-    <!--
-    The StackLayout stacks UI components on the screen—either vertically or horizontally.
-    In this case, the StackLayout does vertical stacking; you can change the stacking to
-    horizontal by applying a orientation="horizontal" attribute to the <StackLayout> element.
-    You can learn more about NativeScript layouts at
-    https://docs.nativescript.org/ui/layout-containers.
-
-    These components make use of several CSS class names that are part of the NativeScript
-    core theme, such as p-20, btn, h2, and text-center. You can view a full list of the
-    class names available for styling your app at https://docs.nativescript.org/ui/theme.
-    -->
     <StackLayout class="p-20">
-        <Label text="Firebase Authentication" class="h1 text-center"/>
+        <Label text="Firebase Authentication" class="h2 text-center"/>
+
+        <GridLayout rows="auto, auto, auto" columns="*" visibility="{{ isFormVisible, isFormVisible ? 'visible' : 'collapsed' }}">
+            <StackLayout row="0" class="form">
+                <StackLayout class="input-field">
+                    <Label class="label" text="Email:"></Label>
+                    <TextField class="input" text="ala@bala.com"></TextField>
+                </StackLayout>
+                <StackLayout class="input-field">
+                    <Label class="label" text="Password:"></Label>
+                    <TextField class="input" text="123456"></TextField>
+                </StackLayout>
+            </StackLayout>
+            <Button row="1" text="Sign up" tap="{{ onCreateUser }}" />
+            <Label row="2" text="Have an account!? Login here!" tap="{{ onFormToggle }}" textWrap="true" class="h3 p-16"/>
+        </GridLayout>
+
+        <GridLayout rows="auto, auto, auto" columns="*" visibility="{{ isFormVisible, !isFormVisible ? 'visible' : 'collapsed' }}">
+            <StackLayout row="0" class="form">
+                <StackLayout class="input-field">
+                    <Label class="label" text="Email:"></Label>
+                    <TextField class="input" text="ala@bala.com" ></TextField>
+                </StackLayout>
+                <StackLayout class="input-field">
+                    <Label class="label" text="Password:"></Label>
+                    <TextField class="input" text="123456" ></TextField>
+                </StackLayout>
+            </StackLayout>
+            <Button row="1" text="Sign in" tap="{{ onPasswordLogin }}" />
+            <Label row="2" text="Create account here!" tap="{{ onFormToggle }}" textWrap="true" class="h3 p-16"/>
+        </GridLayout>
+        
         <Button text="Login with Facebook" tap="{{ onFacebookLogin }}" class="btn btn-primary btn-active"/>
         <Button text="Login with Google" tap="{{ onGoogleLogin }}" class="btn btn-primary btn-active"/>
-        
+  
         <Button text="Logout" tap="{{ onLogout }}" class="btn btn-primary btn-active"/>
     </StackLayout>
 </Page>
