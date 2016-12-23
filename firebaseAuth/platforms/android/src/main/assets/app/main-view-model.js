@@ -36,58 +36,6 @@ var ViewModel = (function (_super) {
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(ViewModel.prototype, "email", {
-        get: function () {
-            return this._email;
-        },
-        set: function (value) {
-            if (this._email !== value) {
-                this._email = value;
-                this.notifyPropertyChange("email", value);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ViewModel.prototype, "pass", {
-        get: function () {
-            return this._pass;
-        },
-        set: function (value) {
-            if (this._pass !== value) {
-                this._pass = value;
-                this.notifyPropertyChange("pass", value);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ViewModel.prototype, "newEmail", {
-        get: function () {
-            return this._newEmail;
-        },
-        set: function (value) {
-            if (this._newEmail !== value) {
-                this._newEmail = value;
-                this.notifyPropertyChange("newEmail", value);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ViewModel.prototype, "newPass", {
-        get: function () {
-            return this._newPass;
-        },
-        set: function (value) {
-            if (this._newPass !== value) {
-                this._newPass = value;
-                this.notifyPropertyChange("newPass", value);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
     ViewModel.prototype.getCurrentUser = function () {
         firebase.getCurrentUser().then(function (user) {
             console.log("User uid: " + user.uid);
@@ -96,6 +44,7 @@ var ViewModel = (function (_super) {
             console.log("Trouble in paradise: " + err);
         });
     };
+    // FACEBOOK login
     ViewModel.prototype.onFacebookLogin = function () {
         var _this = this;
         firebase.login({
@@ -109,6 +58,7 @@ var ViewModel = (function (_super) {
             console.log(err);
         });
     };
+    // GOOGLE login
     ViewModel.prototype.onGoogleLogin = function () {
         var _this = this;
         firebase.login({
@@ -121,6 +71,17 @@ var ViewModel = (function (_super) {
             console.log(err);
         });
     };
+    // ANONYMOUS login
+    ViewModel.prototype.onAnonymousLogin = function () {
+        firebase.login({
+            type: firebase.LoginType.ANONYMOUS
+        }).then(function (user) {
+            console.log("User uid: " + user.uid);
+        }, function (error) {
+            console.log("Trouble in paradise: " + error);
+        });
+    };
+    // PASSWORD login
     ViewModel.prototype.onPasswordLogin = function () {
         var _this = this;
         firebase.login({
@@ -141,10 +102,32 @@ var ViewModel = (function (_super) {
             password: "123456"
         }).then(function (result) {
             console.log("userid: " + result.key);
-        }, function (err) {
+        }).catch(function (err) {
+            console.log("createUser error: " + err);
+        });
+    };
+    ViewModel.prototype.onRestPassword = function () {
+        firebase.resetPassword({
+            email: 'useraccount@provider.com'
+        }).then(function () {
+            // called when password reset was successful,
+            // you could now prompt the user to check his email
+        }).catch(function (err) {
             console.log(err);
         });
     };
+    ViewModel.prototype.onChangePassword = function () {
+        firebase.changePassword({
+            email: 'useraccount@provider.com',
+            oldPassword: 'myOldPassword',
+            newPassword: 'myNewPassword'
+        }).then(function () {
+            // called when password change was successful
+        }).catch(function (err) {
+            console.log(err);
+        });
+    };
+    // Universal logout
     ViewModel.prototype.onLogout = function () {
         firebase.logout();
     };
