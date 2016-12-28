@@ -1,6 +1,6 @@
 "use strict";
-var main_view_model_1 = require("./main-view-model");
-var vm = new main_view_model_1.ViewModel();
+var auth_view_model_1 = require("./view-models/auth-view-model");
+var vm = new auth_view_model_1.AuthViewModel();
 function navigatingTo(args) {
     var page = args.object;
     page.bindingContext = vm;

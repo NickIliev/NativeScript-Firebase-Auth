@@ -208,12 +208,12 @@
         "source": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
         "merged": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable/abc_ic_clear_material.xml",
         "source": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "/Users/niliev/Desktop/git-nick/NativeScript-Firebase-FacebookAuth/firebaseAuth/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable/messenger_button_white_bg_selector.xml",

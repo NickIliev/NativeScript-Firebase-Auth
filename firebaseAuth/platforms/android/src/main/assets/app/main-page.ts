@@ -1,9 +1,9 @@
 import { EventData } from 'data/observable';
 import { Page } from 'ui/page';
-import { ViewModel } from './main-view-model';
+import { AuthViewModel } from './view-models/auth-view-model';
 import * as appSettings from "application-settings";
 
-let vm = new ViewModel();
+let vm = new AuthViewModel();
 
 export function navigatingTo(args: EventData) {
     let page = <Page>args.object;

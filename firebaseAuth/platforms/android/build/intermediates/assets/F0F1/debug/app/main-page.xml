@@ -1,40 +1,43 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
-    <StackLayout class="p-20">
+    <ScrollView>
+    <StackLayout class="p-16">
         <Label text="Firebase Authentication" class="h2 text-center"/>
 
-        <GridLayout rows="auto, auto, auto" columns="*" visibility="{{ isFormVisible, isFormVisible ? 'visible' : 'collapsed' }}">
+        <GridLayout rows="auto, auto, auto" columns="*" visibility="{{ isFormVisible, isFormVisible ? 'visible' : 'collapsed' }}" class="m-16 p-8" backgroundColor="gray">
             <StackLayout row="0" class="form">
                 <StackLayout class="input-field">
                     <Label class="label" text="Email:"></Label>
-                    <TextField class="input" text="ala@bala.com"></TextField>
+                    <TextField class="input" text="{{ newEmail }}"></TextField>
                 </StackLayout>
                 <StackLayout class="input-field">
                     <Label class="label" text="Password:"></Label>
-                    <TextField class="input" text="123456"></TextField>
+                    <TextField class="input" text="{{ newPass }}"></TextField>
                 </StackLayout>
             </StackLayout>
-            <Button row="1" text="Sign up" tap="{{ onCreateUser }}" />
+            <Button row="1" text="Sign up" tap="{{ onCreateUser }}" class="btn btn-primary btn-active"/>
             <Label row="2" text="Have an account!? Login here!" tap="{{ onFormToggle }}" textWrap="true" class="h3 p-16"/>
         </GridLayout>
 
-        <GridLayout rows="auto, auto, auto" columns="*" visibility="{{ isFormVisible, !isFormVisible ? 'visible' : 'collapsed' }}">
+        <GridLayout rows="auto, auto, auto" columns="*" visibility="{{ isFormVisible, !isFormVisible ? 'visible' : 'collapsed' }}" class="m-16 p-8" backgroundColor="lightgray">
             <StackLayout row="0" class="form">
                 <StackLayout class="input-field">
-                    <Label class="label" text="Email:"></Label>
-                    <TextField class="input" text="ala@bala.com" ></TextField>
+                    <Label class="label" color="gray" text="Email:"></Label>
+                    <TextField class="input" text="{{ email }}"></TextField>
                 </StackLayout>
                 <StackLayout class="input-field">
-                    <Label class="label" text="Password:"></Label>
-                    <TextField class="input" text="123456" ></TextField>
+                    <Label class="label" color="gray" text="Password:"></Label>
+                    <TextField class="input" text="{{ pass }}"></TextField>
                 </StackLayout>
             </StackLayout>
-            <Button row="1" text="Sign in" tap="{{ onPasswordLogin }}" />
+            <Button row="1" text="Sign in" tap="{{ onPasswordLogin }}" class="btn btn-primary btn-active"/>
             <Label row="2" text="Create account here!" tap="{{ onFormToggle }}" textWrap="true" class="h3 p-16"/>
         </GridLayout>
         
+        <Button text="Anonymous Login" tap="{{ onAnonymousLogin }}" class="btn btn-primary btn-active"/>
         <Button text="Login with Facebook" tap="{{ onFacebookLogin }}" class="btn btn-primary btn-active"/>
         <Button text="Login with Google" tap="{{ onGoogleLogin }}" class="btn btn-primary btn-active"/>
   
         <Button text="Logout" tap="{{ onLogout }}" class="btn btn-primary btn-active"/>
     </StackLayout>
+    </ScrollView>
 </Page>
