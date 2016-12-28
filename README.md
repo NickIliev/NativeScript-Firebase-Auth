@@ -5,10 +5,12 @@ Everything is setup in the master branch to work with debug build.
 Currently implemented authentication methods:
  - Facebook
  - Google
+ - email / password based login
+ - anonymious login
 
 To enable Firebase authentication in your own project follow the steps below.
 
-## Facebook authentication via Firebase in NativeScript
+## Facebook authentication
 
 ### Facebook console part
 Steps to implement facebook auth via Firebase in NativeScrip app.
@@ -41,45 +43,45 @@ Steps to implement facebook auth via Firebase in NativeScrip app.
     Add it as a child of application on the activity level.
 
 8. go to `app/App_Resources/Android/values` folder and create file called `facebooklogin.xml` with content
-    ```
-        <?xml version='1.0' encoding='utf-8'?>
-        <resources>
-            <string name="facebook_app_id">123456789123456</string>
-        </resources>
-    ```
+```
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="facebook_app_id">123456789123456</string>
+</resources>
+```
     The value for `facebook_app_id` is your Facebook AppId
 
 9. initialize firebase if not already done: 
-    ```
-        firebase.init({
-            onAuthStateChanged: function (data) { // optional but useful to immediately re-logon the user when he re-visits your app
-                console.log(data.loggedIn ? "Logged in to firebase" : "Logged out from firebase");
-                if (data.loggedIn) {
-                    console.log("user's email address: " + (data.user.email ? data.user.email : "N/A"));
-                }
-            },
+```
+firebase.init({
+    onAuthStateChanged: function (data) { // optional but useful to immediately re-logon the user when he re-visits your app
+        console.log(data.loggedIn ? "Logged in to firebase" : "Logged out from firebase");
+        if (data.loggedIn) {
+            console.log("user's email address: " + (data.user.email ? data.user.email : "N/A"));
+        }
+    },
 
-        }).then(instance => {
-            console.log("firebase.init done");
-        }).catch(err => {
-            console.log("Firebase init error: " + err);
-        });
-    ```
+}).then(instance => {
+    console.log("firebase.init done");
+}).catch(err => {
+    console.log("Firebase init error: " + err);
+});
+```
 
 10. finally implement the login for Facebook
-    ```
-    firebase.login({
-        type: firebase.LoginType.FACEBOOK,
-        scope: ['public_profile', 'email'] // optional: defaults to ['public_profile', 'email']
-    }).then(
-        function (result) {
-            console.log(JSON.stringify(result));
-        },
-        function (errorMessage) {
-            console.log(errorMessage);
-        }
-    );
-    ```
+```
+firebase.login({
+    type: firebase.LoginType.FACEBOOK,
+    scope: ['public_profile', 'email'] // optional: defaults to ['public_profile', 'email']
+}).then(
+    function (result) {
+        console.log(JSON.stringify(result));
+    },
+    function (errorMessage) {
+        console.log(errorMessage);
+    }
+);
+```
 
 11. Remember those **Key Hashes** we need to set in Facebook console!? Well after your first attempt to login in,
     open `adb logcat` and look for something like Key hash <......> does not match any stored key hashes.
@@ -110,7 +112,7 @@ e.g.:
 Key hash:  `hBkR5079MNgyiKSzf1x2/Tv0HjI=`
 
 
-## Google authentication via Firebase in NativeScript
+## Google authentication
 Steps to implement Google auth via Firebase in NativeScrip app.
 
 ### Firebase Console Steps
@@ -129,15 +131,103 @@ Steps to implement Google auth via Firebase in NativeScrip app.
 
 1. Go through steps 1-6 from *Facebook* >> *Project Steps* and make sure everything is done (for step 3 look for `google_auth: true`)
 2. If you haven't initialized firebase yet, then go through step 9 from *Facebook* >> *Project Steps*
-3. 
-    ```
-    public onGoogleLogin() {
-        firebase.login({
-            type: firebase.LoginType.GOOGLE,
-        }).then(res => {
-            console.log(JSON.stringify(res));
-        }).catch(err => {
-            console.log(err);
-        })
-    }
-    ```
+
+```
+public onGoogleLogin() {
+    firebase.login({
+        type: firebase.LoginType.GOOGLE,
+    }).then(res => {
+        console.log(JSON.stringify(res));
+    }).catch(err => {
+        console.log(err);
+    })
+}
+```
+
+## Email-Password based authentication
+
+### Firebase Console Steps
+
+- In your Firebase console enable sign-in method "Email/Password"
+- Firebase has automatic guards for validation of emails and will return error if invalid email is provided
+- Paswword mandatory minimum length is 6 characters
+- Multiple accounts per email address can resolve smae user loggin with Facebook, Google and emaul using the same credentials for emaul (account linking).
+
+
+### Code samples for email/password based login
+
+```
+public onPasswordLogin() {
+    firebase.login({
+        type: firebase.LoginType.PASSWORD,
+        email: this.email,
+        password: this.pass
+    }).then(user => {
+        console.log(JSON.stringify(user));
+        this.currentUser = new User(user.anonymous, user.email, user.emailVerified, user.name, user.profileImageURL, user.refreshToken, user.uid);
+        frame.topmost().navigate({ moduleName: "welcome-page", context: { currentUser: this.currentUser } });
+    }).catch(err => {
+        console.log(err);
+        dialogs.alert(err);
+    })
+}
+
+public onCreateUser() {
+    firebase.createUser({
+        email: this.newEmail,
+        password: this.newPass
+    }).then(result => {
+        console.log("userid: " + result.key);
+    }).catch(err => {
+        console.log("createUser error: " + err);
+        dialogs.alert(err);
+    })
+}
+
+public onResetPassword() {
+    firebase.resetPassword({
+        email: this.email
+    }).then(() => {
+        // called when password reset was successful,
+        // you could now prompt the user to check his email
+        dialogs.alert("Password Rest instructions send to " + this.user);
+    }).catch(err => {
+        console.log(err);
+        dialogs.alert(err);
+    })
+}
+
+public onChangePassword() {
+    firebase.changePassword({
+        email: this.email,
+        oldPassword: 'myOldPassword',
+        newPassword: 'myNewPassword'
+    }).then(() => {
+        // called when password change was successful
+    }).catch(err => {
+        console.log(err);
+        dialogs.alert(err);
+    })
+}
+```
+
+### Anonymious authentication
+
+- enable anonymious sign-in method in firebase console
+
+```
+// ANONYMOUS login
+public onAnonymousLogin() {
+    firebase.login({
+        type: firebase.LoginType.ANONYMOUS
+    }).then(user => {
+        console.log(JSON.stringify(user));
+        this.currentUser = new User(user.anonymous, user.email, user.emailVerified, user.name, user.profileImageURL, user.refreshToken, user.uid);
+        frame.topmost().navigate({ moduleName: "welcome-page", context: { currentUser: this.currentUser } });
+    }).catch(err => {
+        console.log("Trouble in paradise: " + err);
+        dialogs.alert(err);
+    })
+}
+```
+
