@@ -1,0 +1,15 @@
+{
+    "nativescript-plugin-firebase": true,
+    "prompt-lite": true,
+    "async": true,
+    "colors": true,
+    "read": true,
+    "mute-stream": true,
+    "revalidator": true,
+    "xcode": true,
+    "node-uuid": true,
+    "pegjs": true,
+    "nativescript-theme-core": true,
+    "tns-core-modules": true,
+    "tns-core-modules-widgets": true
+}
