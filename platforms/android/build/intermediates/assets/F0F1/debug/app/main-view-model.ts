@@ -28,6 +28,10 @@ export class HelloWorldModel extends Observable {
         }).then(
             function (result) {
                 console.log(JSON.stringify(result));
+                console.log(result.name);
+                console.log(result["name"])
+                this.username = result["name"];
+ 
                 frame.topmost().navigate("welcome-page");
             },
             function (errorMessage) {

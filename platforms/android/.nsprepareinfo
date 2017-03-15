@@ -1,7 +1,7 @@
 {
-	"time": "Wed Mar 15 2017 13:58:33 GMT+0200 (FLE Standard Time)",
+	"time": "Wed Mar 15 2017 15:49:56 GMT+0200 (FLE Standard Time)",
 	"bundle": false,
 	"release": false,
-	"changesRequireBuild": false,
-	"changesRequireBuildTime": "Wed Mar 15 2017 13:29:15 GMT+0200 (FLE Standard Time)"
+	"changesRequireBuild": true,
+	"changesRequireBuildTime": "Wed Mar 15 2017 15:49:56 GMT+0200 (FLE Standard Time)"
 }

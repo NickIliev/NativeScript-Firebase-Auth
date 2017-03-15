@@ -1,0 +1,13 @@
+.DS_Store
+lib/
+node_modules/
+platforms/
+
+!google-services.json
+
+/firebaseAuth/app/**/*.js
+/firebaseAuth/app/**/*.map
+
+/keystore/
+*.apk
+*.ipa
