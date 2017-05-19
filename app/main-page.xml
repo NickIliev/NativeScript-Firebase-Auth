@@ -1,6 +1,8 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
     <StackLayout class="p-20">
-        <Label text="Login with Facebook" class="h1 text-center"/>
-        <Button text="TAP" tap="{{ onFacebookLogin }}" class="btn btn-primary btn-active"/>
+        <Label text="Firebase AUTH with NatievScript" class="h1 text-center"/>
+        <Button text="Facebook Login" tap="{{ onFacebookLogin }}" class="btn btn-primary btn-active"/>
+        <!--<Button text="Google Login" tap="{{ onGoogleLogin }}" class="btn btn-primary btn-active" />--> <!-- add SHA1 to firebase conosole (see RADME.md)-->
+        
     </StackLayout>
 </Page>

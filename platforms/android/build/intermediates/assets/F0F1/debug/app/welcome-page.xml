@@ -1,5 +1,0 @@
-<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo">
-    <Label text="Login succsessfull! WELCOME!" textWrap="true" />
-    <Label text="{{ usermane }}" textWrap="true" />
-    
-</Page>

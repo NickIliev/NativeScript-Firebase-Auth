@@ -1,5 +1,8 @@
-<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo">
-    <Label text="Login succsessfull! WELCOME!" textWrap="true" />
-    <Label text="{{ usermane }}" textWrap="true" />
-    
+<Page xmlns="http://www.nativescript.org/tns.xsd" navigatedTo="onNavigatedTo">
+    <StackLayout class="bg-primary p-20">
+        <Label text="Login succsessfull! WELCOME!" class="h1 text-center" textWrap="true" />
+        <Label text="{{ currentUser.name }}" textWrap="true" />
+        <!--<Label text="{{ currentUser.email }}" textWrap="true" />
+        <Image src="{{ currentUser.profileImageURL }}" width="100" height="100" class="img-circle" borderWidth="1" borderColor="white"/>-->
+    </StackLayout>
 </Page>

@@ -6,21 +6,21 @@
   "nativescript": {
     "id": "org.nativescript.firebaseAuth",
     "tns-android": {
-      "version": "2.5.0"
+      "version": "3.0.0"
     }
   },
   "dependencies": {
-    "nativescript-plugin-firebase": "^3.10.2",
-    "nativescript-theme-core": "^1.0.3",
-    "tns-core-modules": "2.5.1"
+    "nativescript-plugin-firebase": "^3.11.4",
+    "nativescript-theme-core": "^1.0.4",
+    "tns-core-modules": "3.0.0"
   },
   "devDependencies": {
     "babel-traverse": "6.21.0",
     "babel-types": "6.21.0",
     "babylon": "6.14.1",
     "lazy": "1.0.11",
-    "nativescript-dev-typescript": "^0.3.7",
-    "tns-platform-declarations": "^2.5.0",
-    "typescript": "^2.1.4"
+    "nativescript-dev-typescript": "^0.4.5",
+    "tns-platform-declarations": "^3.0.1",
+    "typescript": "^2.3.2"
   }
 }

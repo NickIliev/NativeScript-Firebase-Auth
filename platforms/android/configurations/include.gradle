@@ -1,4 +1,0 @@
-
-android {
-    flavorDimensions "nativescriptpluginfirebase", "tnscoremoduleswidgets"
-}
